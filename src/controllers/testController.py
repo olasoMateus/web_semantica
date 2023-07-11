@@ -3,23 +3,23 @@ from flask_restx import Api, Resource
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 from src.server.instance import server
-from src.models.urbanIotModel import urbanIoT
+from src.models.testModel import test
 
 app = server.app
 api = server.api
 
-@api.route('/urbanIoT/especifiedQuery')
-class UrbanIot(Resource):
-    @api.doc(params={'Query': 'A query'})
+@api.route('/allThings')
+class TestController(Resource):
+
     def get(self):
         sparql = SPARQLWrapper(
         "http://localhost:3030/urbanIoT/sparql"
         )
         sparql.setReturnFormat(JSON)
 
-        print(1)
-
-        query = request.args.get('Query', type = str)
+        query = """
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> SELECT * WHERE {   ?sub ?pred ?obj . }
+        """
 
         print(query)
 
