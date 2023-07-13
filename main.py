@@ -10,4 +10,4 @@ def index():
     # A welcome message to test our server
     return "<h1>Welcome to our medium-greeting-api!</h1>"
 
-app = server.run()
+app = server.app
