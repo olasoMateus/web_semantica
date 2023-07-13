@@ -4,4 +4,11 @@ from src.controllers.urbanIoTController import *
 from src.controllers.testController import *
 from src.controllers.recifeController import *
 
-server.run()
+
+@app.route('/')
+def index():
+    # A welcome message to test our server
+    return "<h1>Welcome to our medium-greeting-api!</h1>"
+
+if __name__ == '__main__':
+    server.run()
