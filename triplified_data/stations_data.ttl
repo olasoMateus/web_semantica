@@ -1,0 +1,2012 @@
+@prefix ns1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns2: <http://www.w3id.org/urban-iot/sharing#> .
+@prefix ns3: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/station/3005> a ns2:PhysicalSharingStation ;
+    ns3:address "700 Flower St, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.0485 ;
+    ns1:long -118.25854 ;
+    ns2:AvailableVehicles 24 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 31 ;
+    <http://xmlns.com/foaf/0.1/name/> "7th & Flower"^^xsd:string .
+
+<http://example.org/station/3006> a ns2:PhysicalSharingStation ;
+    ns3:address "729 S Olive Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04554 ;
+    ns1:long -118.25667 ;
+    ns2:AvailableVehicles 15 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 31 ;
+    <http://xmlns.com/foaf/0.1/name/> "Olive & 8th"^^xsd:string .
+
+<http://example.org/station/3007> a ns2:PhysicalSharingStation ;
+    ns3:address "557 S 5th Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.05048 ;
+    ns1:long -118.25459 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 23 ;
+    <http://xmlns.com/foaf/0.1/name/> "5th & Grand"^^xsd:string .
+
+<http://example.org/station/3008> a ns2:PhysicalSharingStation ;
+    ns3:address "865 S Figueroa Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04661 ;
+    ns1:long -118.26273 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Figueroa & 9th"^^xsd:string .
+
+<http://example.org/station/3010> a ns2:PhysicalSharingStation ;
+    ns3:address "401 East 11th Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.03705 ;
+    ns1:long -118.25487 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "11th & Maple"^^xsd:string .
+
+<http://example.org/station/3011> a ns2:PhysicalSharingStation ;
+    ns3:address "1259-1299 S Figueroa Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04113 ;
+    ns1:long -118.26798 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 19 ;
+    <http://xmlns.com/foaf/0.1/name/> "Figueroa & Pico"^^xsd:string .
+
+<http://example.org/station/3014> a ns2:PhysicalSharingStation ;
+    ns3:address "834 N Alameda St, Chinatown, CA"^^xsd:string ;
+    ns1:lat 34.05661 ;
+    ns1:long -118.23721 ;
+    ns2:AvailableVehicles 19 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 33 ;
+    <http://xmlns.com/foaf/0.1/name/> "Union Station West Portal"^^xsd:string .
+
+<http://example.org/station/3016> a ns2:PhysicalSharingStation ;
+    ns3:address "201 N Los Angeles Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.0529 ;
+    ns1:long -118.24156 ;
+    ns2:AvailableVehicles 12 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 30 ;
+    <http://xmlns.com/foaf/0.1/name/> "Los Angeles & Temple"^^xsd:string .
+
+<http://example.org/station/3018> a ns2:PhysicalSharingStation ;
+    ns3:address "919 S Grand Ave., DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04373 ;
+    ns1:long -118.26014 ;
+    ns2:AvailableVehicles 11 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 19 ;
+    <http://xmlns.com/foaf/0.1/name/> "Grand & Olympic"^^xsd:string .
+
+<http://example.org/station/3019> a ns2:PhysicalSharingStation ;
+    ns3:address "129 W 12th Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.03861 ;
+    ns1:long -118.26086 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 19 ;
+    <http://xmlns.com/foaf/0.1/name/> "12th & Hill"^^xsd:string .
+
+<http://example.org/station/3020> a ns2:PhysicalSharingStation ;
+    ns3:address "1950 S Hill Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.03105 ;
+    ns1:long -118.26709 ;
+    ns2:AvailableVehicles 11 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 21 ;
+    <http://xmlns.com/foaf/0.1/name/> "Hill & Washington"^^xsd:string .
+
+<http://example.org/station/3022> a ns2:PhysicalSharingStation ;
+    ns3:address "999 E Third Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04607 ;
+    ns1:long -118.23309 ;
+    ns2:AvailableVehicles 10 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 26 ;
+    <http://xmlns.com/foaf/0.1/name/> "3rd & Santa Fe"^^xsd:string .
+
+<http://example.org/station/3024> a ns2:PhysicalSharingStation ;
+    ns3:address "111 N Hope St, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.05772 ;
+    ns1:long -118.24897 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 17 ;
+    <http://xmlns.com/foaf/0.1/name/> "Hope & 1st"^^xsd:string .
+
+<http://example.org/station/3025> a ns2:PhysicalSharingStation ;
+    ns3:address "1014 S Grand Ave, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.03286 ;
+    ns1:long -118.26808 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Grand & Washington"^^xsd:string .
+
+<http://example.org/station/3026> a ns2:PhysicalSharingStation ;
+    ns3:address "668 N Figueroa Street, Chinatown, CA"^^xsd:string ;
+    ns1:lat 34.06318 ;
+    ns1:long -118.24588 ;
+    ns2:AvailableVehicles 11 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Figueroa & Cesar Chavez"^^xsd:string .
+
+<http://example.org/station/3027> a ns2:PhysicalSharingStation ;
+    ns3:address "300 S Spring Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04998 ;
+    ns1:long -118.24716 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Spring & 3rd"^^xsd:string .
+
+<http://example.org/station/3028> a ns2:PhysicalSharingStation ;
+    ns3:address "310 N Grand Ave, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.05832 ;
+    ns1:long -118.24609 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "Grand & Temple"^^xsd:string .
+
+<http://example.org/station/3030> a ns2:PhysicalSharingStation ;
+    ns3:address "120 S Main Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.05194 ;
+    ns1:long -118.24353 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 29 ;
+    <http://xmlns.com/foaf/0.1/name/> "Main & 1st"^^xsd:string .
+
+<http://example.org/station/3031> a ns2:PhysicalSharingStation ;
+    ns3:address "7th & Spring St., DTLA, CA"^^xsd:string ;
+    ns1:lat 34.0447 ;
+    ns1:long -118.25244 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 26 ;
+    <http://xmlns.com/foaf/0.1/name/> "7th & Spring"^^xsd:string .
+
+<http://example.org/station/3032> a ns2:PhysicalSharingStation ;
+    ns3:address "557 S Hope Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04989 ;
+    ns1:long -118.25588 ;
+    ns2:AvailableVehicles 10 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 31 ;
+    <http://xmlns.com/foaf/0.1/name/> "Hope & 6th"^^xsd:string .
+
+<http://example.org/station/3033> a ns2:PhysicalSharingStation ;
+    ns3:address "110 E 9th Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04099 ;
+    ns1:long -118.2558 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Main & 9th"^^xsd:string .
+
+<http://example.org/station/3034> a ns2:PhysicalSharingStation ;
+    ns3:address "1113 S Hope St, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04206 ;
+    ns1:long -118.26338 ;
+    ns2:AvailableVehicles 15 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 29 ;
+    <http://xmlns.com/foaf/0.1/name/> "Hope & 11th"^^xsd:string .
+
+<http://example.org/station/3035> a ns2:PhysicalSharingStation ;
+    ns3:address "Reinstalled 6/15, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.0484 ;
+    ns1:long -118.26095 ;
+    ns2:AvailableVehicles 11 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 23 ;
+    <http://xmlns.com/foaf/0.1/name/> "Figueroa & 8th"^^xsd:string .
+
+<http://example.org/station/3036> a ns2:PhysicalSharingStation ;
+    ns3:address "1301 Willow Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.03919 ;
+    ns1:long -118.23253 ;
+    ns2:AvailableVehicles 10 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 19 ;
+    <http://xmlns.com/foaf/0.1/name/> "Willow St & Mateo St"^^xsd:string .
+
+<http://example.org/station/3037> a ns2:PhysicalSharingStation ;
+    ns3:address "699 S Imperial St, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.0348 ;
+    ns1:long -118.23128 ;
+    ns2:AvailableVehicles 11 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 20 ;
+    <http://xmlns.com/foaf/0.1/name/> "Imperial & 7th"^^xsd:string .
+
+<http://example.org/station/3040> a ns2:PhysicalSharingStation ;
+    ns3:address "1234 Wilshire Blvd, Westlake, CA"^^xsd:string ;
+    ns1:lat 34.05357 ;
+    ns1:long -118.26636 ;
+    ns2:AvailableVehicles 1 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 9 ;
+    <http://xmlns.com/foaf/0.1/name/> "Wilshire & Witmer"^^xsd:string .
+
+<http://example.org/station/3042> a ns2:PhysicalSharingStation ;
+    ns3:address "369 E First Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.0493 ;
+    ns1:long -118.23881 ;
+    ns2:AvailableVehicles 20 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 28 ;
+    <http://xmlns.com/foaf/0.1/name/> "1st & Central"^^xsd:string .
+
+<http://example.org/station/3045> a ns2:PhysicalSharingStation ;
+    ns3:address "1850 San Pedro St, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.02851 ;
+    ns1:long -118.25667 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "18th & San Pedro"^^xsd:string .
+
+<http://example.org/station/3046> a ns2:PhysicalSharingStation ;
+    ns3:address "201 South Hill Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.05287 ;
+    ns1:long -118.24749 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 17 ;
+    <http://xmlns.com/foaf/0.1/name/> "2nd & Hill"^^xsd:string .
+
+<http://example.org/station/3047> a ns2:PhysicalSharingStation ;
+    ns3:address "515 W Pico Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.03998 ;
+    ns1:long -118.2664 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 36 ;
+    <http://xmlns.com/foaf/0.1/name/> "Pico & Flower"^^xsd:string .
+
+<http://example.org/station/3048> a ns2:PhysicalSharingStation ;
+    ns3:address "1210 East 5th Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04169 ;
+    ns1:long -118.23535 ;
+    ns2:AvailableVehicles 12 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "5th & Hewitt"^^xsd:string .
+
+<http://example.org/station/3049> a ns2:PhysicalSharingStation ;
+    ns3:address "945 W 2nd Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.05697 ;
+    ns1:long -118.25359 ;
+    ns2:AvailableVehicles 11 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 18 ;
+    <http://xmlns.com/foaf/0.1/name/> "2nd & Figueroa"^^xsd:string .
+
+<http://example.org/station/3052> a ns2:PhysicalSharingStation ;
+    ns3:address "1107 W 7th Street, Westlake, CA"^^xsd:string ;
+    ns1:lat 34.0511 ;
+    ns1:long -118.26456 ;
+    ns2:AvailableVehicles 10 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 34 ;
+    <http://xmlns.com/foaf/0.1/name/> "7th & Bixel"^^xsd:string .
+
+<http://example.org/station/3054> a ns2:PhysicalSharingStation ;
+    ns3:address "1245 Factory Place, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.03922 ;
+    ns1:long -118.23649 ;
+    ns2:AvailableVehicles 12 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 19 ;
+    <http://xmlns.com/foaf/0.1/name/> "Factory Place & Alameda"^^xsd:string .
+
+<http://example.org/station/3056> a ns2:PhysicalSharingStation ;
+    ns3:address "1375 S Grand Ave, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.03746 ;
+    ns1:long -118.26538 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Grand & 14th"^^xsd:string .
+
+<http://example.org/station/3058> a ns2:PhysicalSharingStation ;
+    ns3:address "1855 Industrial Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.0358 ;
+    ns1:long -118.23317 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Industrial St & Mateo St"^^xsd:string .
+
+<http://example.org/station/3062> a ns2:PhysicalSharingStation ;
+    ns3:address "350 E Third Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04775 ;
+    ns1:long -118.24317 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "3rd & San Pedro"^^xsd:string .
+
+<http://example.org/station/3063> a ns2:PhysicalSharingStation ;
+    ns3:address "Service disruptions through 8/7, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04804 ;
+    ns1:long -118.25374 ;
+    ns2:AvailableVehicles 10 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 22 ;
+    <http://xmlns.com/foaf/0.1/name/> "Pershing Square (Limited Access)"^^xsd:string .
+
+<http://example.org/station/3064> a ns2:PhysicalSharingStation ;
+    ns3:address "786 S Grand Ave, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04613 ;
+    ns1:long -118.25759 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 18 ;
+    <http://xmlns.com/foaf/0.1/name/> "Grand & 8th"^^xsd:string .
+
+<http://example.org/station/3065> a ns2:PhysicalSharingStation ;
+    ns3:address "725 New High Street, Chinatown, CA"^^xsd:string ;
+    ns1:lat 34.06056 ;
+    ns1:long -118.23833 ;
+    ns2:AvailableVehicles 11 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "New High & Ord"^^xsd:string .
+
+<http://example.org/station/3066> a ns2:PhysicalSharingStation ;
+    ns3:address "870 N Spring Street, Chinatown, CA"^^xsd:string ;
+    ns1:lat 34.06339 ;
+    ns1:long -118.23616 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Spring & College"^^xsd:string .
+
+<http://example.org/station/3068> a ns2:PhysicalSharingStation ;
+    ns3:address "250 S Grand Ave, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.0532 ;
+    ns1:long -118.25095 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "Grand & 3rd"^^xsd:string .
+
+<http://example.org/station/3069> a ns2:PhysicalSharingStation ;
+    ns3:address "303 S Broadway Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.05088 ;
+    ns1:long -118.24825 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 23 ;
+    <http://xmlns.com/foaf/0.1/name/> "Broadway & 3rd"^^xsd:string .
+
+<http://example.org/station/3074> a ns2:PhysicalSharingStation ;
+    ns3:address "960 S Hope Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04417 ;
+    ns1:long -118.26117 ;
+    ns2:AvailableVehicles 14 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 22 ;
+    <http://xmlns.com/foaf/0.1/name/> "Hope & Olympic"^^xsd:string .
+
+<http://example.org/station/3075> a ns2:PhysicalSharingStation ;
+    ns3:address "902 South Broadway, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04211 ;
+    ns1:long -118.25619 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "Broadway & 9th"^^xsd:string .
+
+<http://example.org/station/3076> a ns2:PhysicalSharingStation ;
+    ns3:address "201 East 9th Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.0406 ;
+    ns1:long -118.25384 ;
+    ns2:AvailableVehicles 12 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "9th & Los Angeles"^^xsd:string .
+
+<http://example.org/station/3077> a ns2:PhysicalSharingStation ;
+    ns3:address "517 East 8th Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.03987 ;
+    ns1:long -118.25004 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "8th & Wall"^^xsd:string .
+
+<http://example.org/station/3078> a ns2:PhysicalSharingStation ;
+    ns3:address "881 N Hill Street, Chinatown, CA"^^xsd:string ;
+    ns1:lat 34.06428 ;
+    ns1:long -118.23894 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Hill & College"^^xsd:string .
+
+<http://example.org/station/3079> a ns2:PhysicalSharingStation ;
+    ns3:address "720 E Temple St, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.05014 ;
+    ns1:long -118.23319 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "Temple & Vignes"^^xsd:string .
+
+<http://example.org/station/3081> a ns2:PhysicalSharingStation ;
+    ns3:address "800 E 12th Street, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.03189 ;
+    ns1:long -118.25018 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Stanford & 12th"^^xsd:string .
+
+<http://example.org/station/3082> a ns2:PhysicalSharingStation ;
+    ns3:address "599 Traction Ave, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04652 ;
+    ns1:long -118.23741 ;
+    ns2:AvailableVehicles 12 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 27 ;
+    <http://xmlns.com/foaf/0.1/name/> "Traction & Rose"^^xsd:string .
+
+<http://example.org/station/4202> a ns2:PhysicalSharingStation ;
+    ns3:address "1222 Abbot Kinney Blvd, Venice, CA"^^xsd:string ;
+    ns1:lat 33.99116 ;
+    ns1:long -118.46829 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 24 ;
+    <http://xmlns.com/foaf/0.1/name/> "Abbot Kinney & Cadiz"^^xsd:string .
+
+<http://example.org/station/4204> a ns2:PhysicalSharingStation ;
+    ns3:address "2901 W Washington Blvd, Venice, CA"^^xsd:string ;
+    ns1:lat 33.98842 ;
+    ns1:long -118.45163 ;
+    ns2:AvailableVehicles 15 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "Washington & Abbot Kinney"^^xsd:string .
+
+<http://example.org/station/4205> a ns2:PhysicalSharingStation ;
+    ns3:address "923 Venice Blvd, Venice, CA"^^xsd:string ;
+    ns1:lat 33.99377 ;
+    ns1:long -118.45367 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "Venice & Lincoln"^^xsd:string .
+
+<http://example.org/station/4206> a ns2:PhysicalSharingStation ;
+    ns3:address "1000 California Ave, Venice, CA"^^xsd:string ;
+    ns1:lat 33.99834 ;
+    ns1:long -118.46101 ;
+    ns2:AvailableVehicles 17 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 30 ;
+    <http://xmlns.com/foaf/0.1/name/> "California & Lincoln"^^xsd:string .
+
+<http://example.org/station/4207> a ns2:PhysicalSharingStation ;
+    ns3:address "715 Rose Ave, Venice, CA"^^xsd:string ;
+    ns1:lat 34.00088 ;
+    ns1:long -118.46891 ;
+    ns2:AvailableVehicles 16 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 22 ;
+    <http://xmlns.com/foaf/0.1/name/> "Rose & 7th"^^xsd:string .
+
+<http://example.org/station/4208> a ns2:PhysicalSharingStation ;
+    ns3:address "529 Rose Ave, Venice, CA"^^xsd:string ;
+    ns1:lat 33.99868 ;
+    ns1:long -118.47298 ;
+    ns2:AvailableVehicles 11 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 21 ;
+    <http://xmlns.com/foaf/0.1/name/> "Rose & Rennie"^^xsd:string .
+
+<http://example.org/station/4209> a ns2:PhysicalSharingStation ;
+    ns3:address "200 Rose Ave, Venice, CA"^^xsd:string ;
+    ns1:lat 33.99624 ;
+    ns1:long -118.47745 ;
+    ns2:AvailableVehicles 21 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 23 ;
+    <http://xmlns.com/foaf/0.1/name/> "Rose & Main"^^xsd:string .
+
+<http://example.org/station/4210> a ns2:PhysicalSharingStation ;
+    ns3:address "2100 Ocean Front Walk, Venice, CA"^^xsd:string ;
+    ns1:lat 33.98434 ;
+    ns1:long -118.47155 ;
+    ns2:AvailableVehicles 11 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Ocean Front Walk & North Venice"^^xsd:string .
+
+<http://example.org/station/4211> a ns2:PhysicalSharingStation ;
+    ns3:address "2100 Pacific Ave, Venice, CA"^^xsd:string ;
+    ns1:lat 33.98493 ;
+    ns1:long -118.46996 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "Pacific & North Venice"^^xsd:string .
+
+<http://example.org/station/4212> a ns2:PhysicalSharingStation ;
+    ns3:address "140 Windward Ave, Venice, CA"^^xsd:string ;
+    ns1:lat 33.98813 ;
+    ns1:long -118.47174 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 21 ;
+    <http://xmlns.com/foaf/0.1/name/> "Windward & Main"^^xsd:string .
+
+<http://example.org/station/4213> a ns2:PhysicalSharingStation ;
+    ns3:address "1150 7th Ave, Venice, CA"^^xsd:string ;
+    ns1:lat 33.99537 ;
+    ns1:long -118.4648 ;
+    ns2:AvailableVehicles 10 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "7th & Westminster"^^xsd:string .
+
+<http://example.org/station/4214> a ns2:PhysicalSharingStation ;
+    ns3:address "Ocean Front Walk at Navy St, Venice, CA"^^xsd:string ;
+    ns1:lat 33.99556 ;
+    ns1:long -118.48155 ;
+    ns2:AvailableVehicles 0 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 26 ;
+    <http://xmlns.com/foaf/0.1/name/> "Ocean Front Walk & Navy"^^xsd:string .
+
+<http://example.org/station/4215> a ns2:PhysicalSharingStation ;
+    ns3:address "1621 4th St, Santa Monica, CA"^^xsd:string ;
+    ns1:lat 34.01431 ;
+    ns1:long -118.49134 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 18 ;
+    <http://xmlns.com/foaf/0.1/name/> "Downtown Santa Monica E Line Station"^^xsd:string .
+
+<http://example.org/station/4216> a ns2:PhysicalSharingStation ;
+    ns3:address "1610 Colorado Ave, Santa Monica, CA"^^xsd:string ;
+    ns1:lat 34.02339 ;
+    ns1:long -118.47964 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 19 ;
+    <http://xmlns.com/foaf/0.1/name/> "17th St / SMC E Line Station"^^xsd:string .
+
+<http://example.org/station/4217> a ns2:PhysicalSharingStation ;
+    ns3:address "1041 S Broadway, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04031 ;
+    ns1:long -118.25827 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 19 ;
+    <http://xmlns.com/foaf/0.1/name/> "Broadway & 11th"^^xsd:string .
+
+<http://example.org/station/4220> a ns2:PhysicalSharingStation ;
+    ns3:address "1610 Park Ave, Echo Park, CA"^^xsd:string ;
+    ns1:lat 34.07483 ;
+    ns1:long -118.25873 ;
+    ns2:AvailableVehicles 2 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Park & Echo Park"^^xsd:string .
+
+<http://example.org/station/4227> a ns2:PhysicalSharingStation ;
+    ns3:address "2117 S Grand Ave, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.0298 ;
+    ns1:long -118.27031 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "Grand / LATTC"^^xsd:string .
+
+<http://example.org/station/4245> a ns2:PhysicalSharingStation ;
+    ns3:address "3451 University Ave, USC, CA"^^xsd:string ;
+    ns1:lat 34.02404 ;
+    ns1:long -118.28341 ;
+    ns2:AvailableVehicles 13 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "University & Hoover"^^xsd:string .
+
+<http://example.org/station/4246> a ns2:PhysicalSharingStation ;
+    ns3:address "699 W 32nd Street, USC, CA"^^xsd:string ;
+    ns1:lat 34.02371 ;
+    ns1:long -118.27917 ;
+    ns2:AvailableVehicles 12 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "32nd & Figueroa"^^xsd:string .
+
+<http://example.org/station/4247> a ns2:PhysicalSharingStation ;
+    ns3:address "1369 W 25th Street, USC, CA"^^xsd:string ;
+    ns1:lat 34.03364 ;
+    ns1:long -118.29131 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 8 ;
+    <http://xmlns.com/foaf/0.1/name/> "25th & Vermont"^^xsd:string .
+
+<http://example.org/station/4248> a ns2:PhysicalSharingStation ;
+    ns3:address "1276 W 29th St, USC, CA"^^xsd:string ;
+    ns1:lat 34.02835 ;
+    ns1:long -118.28867 ;
+    ns2:AvailableVehicles 12 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 19 ;
+    <http://xmlns.com/foaf/0.1/name/> "29th & Ellendale"^^xsd:string .
+
+<http://example.org/station/4249> a ns2:PhysicalSharingStation ;
+    ns3:address "3499 S Figueroa St, USC, CA"^^xsd:string ;
+    ns1:lat 34.0203 ;
+    ns1:long -118.28118 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Figueroa & McCarthy Way"^^xsd:string .
+
+<http://example.org/station/4250> a ns2:PhysicalSharingStation ;
+    ns3:address "804 W Adams Blvd, USC, CA"^^xsd:string ;
+    ns1:lat 34.03017 ;
+    ns1:long -118.28095 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Severance & Adams"^^xsd:string .
+
+<http://example.org/station/4254> a ns2:PhysicalSharingStation ;
+    ns3:address "2817 Hoover St, USC, CA"^^xsd:string ;
+    ns1:lat 34.02868 ;
+    ns1:long -118.28411 ;
+    ns2:AvailableVehicles 0 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Hoover & 29th"^^xsd:string .
+
+<http://example.org/station/4255> a ns2:PhysicalSharingStation ;
+    ns3:address "6020 Seabluff Dr, Playa Vista, CA"^^xsd:string ;
+    ns1:lat 33.97366 ;
+    ns1:long -118.42286 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "Seabluff & Runway"^^xsd:string .
+
+<http://example.org/station/4266> a ns2:PhysicalSharingStation ;
+    ns3:address "613 W 28th St, USC, CA"^^xsd:string ;
+    ns1:lat 34.02629 ;
+    ns1:long -118.27769 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "28th & Figueroa"^^xsd:string .
+
+<http://example.org/station/4267> a ns2:PhysicalSharingStation ;
+    ns3:address "737 W 28th St, USC, CA"^^xsd:string ;
+    ns1:lat 34.02762 ;
+    ns1:long -118.28068 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "28th & University"^^xsd:string .
+
+<http://example.org/station/4273> a ns2:PhysicalSharingStation ;
+    ns3:address "3175 South Hoover Street, USC, CA"^^xsd:string ;
+    ns1:lat 34.02586 ;
+    ns1:long -118.2841 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Hoover & 32nd"^^xsd:string .
+
+<http://example.org/station/4275> a ns2:PhysicalSharingStation ;
+    ns3:address "Southwest Stadium Entrance, USC, CA"^^xsd:string ;
+    ns1:lat 34.01252 ;
+    ns1:long -118.2859 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Expo Park/LAFC"^^xsd:string .
+
+<http://example.org/station/4293> a ns2:PhysicalSharingStation ;
+    ns3:address "300 S Westlake Ave, Westlake, CA"^^xsd:string ;
+    ns1:lat 34.06228 ;
+    ns1:long -118.27152 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "Westlake & 3rd"^^xsd:string .
+
+<http://example.org/station/4300> a ns2:PhysicalSharingStation ;
+    ns3:address "1552 W Olympic Blvd, Westlake, CA"^^xsd:string ;
+    ns1:lat 34.04887 ;
+    ns1:long -118.2743 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "Union & Olympic"^^xsd:string .
+
+<http://example.org/station/4301> a ns2:PhysicalSharingStation ;
+    ns3:address "4698-4680 Maubert Ave, Los Feliz, CA"^^xsd:string ;
+    ns1:lat 34.09905 ;
+    ns1:long -118.2915 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "Maubert & Vermont"^^xsd:string .
+
+<http://example.org/station/4302> a ns2:PhysicalSharingStation ;
+    ns3:address "1150 N Vermont Ave, Los Feliz, CA"^^xsd:string ;
+    ns1:lat 34.09249 ;
+    ns1:long -118.29144 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "Vermont Pl & Vermont "^^xsd:string .
+
+<http://example.org/station/4303> a ns2:PhysicalSharingStation ;
+    ns3:address "4459 Sunset Blvd, Los Feliz, CA"^^xsd:string ;
+    ns1:lat 34.09801 ;
+    ns1:long -118.28707 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "Sunset & Virgil"^^xsd:string .
+
+<http://example.org/station/4304> a ns2:PhysicalSharingStation ;
+    ns3:address "629 Shatto Pl, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.06258 ;
+    ns1:long -118.29009 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Shatto Pl & Wilshire"^^xsd:string .
+
+<http://example.org/station/4306> a ns2:PhysicalSharingStation ;
+    ns3:address "3038 W 8th St, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.05765 ;
+    ns1:long -118.29218 ;
+    ns2:AvailableVehicles 10 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "8th & Vermont"^^xsd:string .
+
+<http://example.org/station/4311> a ns2:PhysicalSharingStation ;
+    ns3:address "3192 W 7th St, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.05969 ;
+    ns1:long -118.29466 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "7th & Berendo"^^xsd:string .
+
+<http://example.org/station/4313> a ns2:PhysicalSharingStation ;
+    ns3:address "662 S Westlake Ave, Westlake, CA"^^xsd:string ;
+    ns1:lat 34.05681 ;
+    ns1:long -118.275 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Westlake/MacArthur Park Station"^^xsd:string .
+
+<http://example.org/station/4314> a ns2:PhysicalSharingStation ;
+    ns3:address "2378 W 7th St, Westlake, CA"^^xsd:string ;
+    ns1:lat 34.05771 ;
+    ns1:long -118.27976 ;
+    ns2:AvailableVehicles 11 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "7th & Park View"^^xsd:string .
+
+<http://example.org/station/4315> a ns2:PhysicalSharingStation ;
+    ns3:address "694 South Union Avenue, Westlake, CA"^^xsd:string ;
+    ns1:lat 34.05403 ;
+    ns1:long -118.27092 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 13 ;
+    <http://xmlns.com/foaf/0.1/name/> "Union & 7th"^^xsd:string .
+
+<http://example.org/station/4387> a ns2:PhysicalSharingStation ;
+    ns3:address "777 Alameda St, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.03352 ;
+    ns1:long -118.24184 ;
+    ns2:AvailableVehicles 16 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 19 ;
+    <http://xmlns.com/foaf/0.1/name/> "Row DTLA"^^xsd:string .
+
+<http://example.org/station/4390> a ns2:PhysicalSharingStation ;
+    ns3:address "S Kenmore Ave & W 3rd St, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.06927 ;
+    ns1:long -118.29659 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "Kenmore & 3rd"^^xsd:string .
+
+<http://example.org/station/4401> a ns2:PhysicalSharingStation ;
+    ns3:address "Vermont & Beverly , Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.07561 ;
+    ns1:long -118.29186 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Vermont & Beverly"^^xsd:string .
+
+<http://example.org/station/4404> a ns2:PhysicalSharingStation ;
+    ns3:address "919 Albany St, Westlake, CA"^^xsd:string ;
+    ns1:lat 34.04813 ;
+    ns1:long -118.27103 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Albany & Olympic"^^xsd:string .
+
+<http://example.org/station/4405> a ns2:PhysicalSharingStation ;
+    ns3:address "Berendo & Olympic road, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.0519 ;
+    ns1:long -118.29368 ;
+    ns2:AvailableVehicles 12 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 18 ;
+    <http://xmlns.com/foaf/0.1/name/> "Berendo & Olympic"^^xsd:string .
+
+<http://example.org/station/4406> a ns2:PhysicalSharingStation ;
+    ns3:address "1689 N Normandie Ave, Los Feliz, CA"^^xsd:string ;
+    ns1:lat 34.10189 ;
+    ns1:long -118.30061 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "Normandie & Hollywood"^^xsd:string .
+
+<http://example.org/station/4410> a ns2:PhysicalSharingStation ;
+    ns3:address "609 S Kenmore Ave, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.06335 ;
+    ns1:long -118.2968 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "Kenmore & 6th"^^xsd:string .
+
+<http://example.org/station/4436> a ns2:PhysicalSharingStation ;
+    ns3:address "1900 N Vermont, Los Feliz, CA"^^xsd:string ;
+    ns1:lat 34.10578 ;
+    ns1:long -118.29194 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 9 ;
+    <http://xmlns.com/foaf/0.1/name/> "Vermont & Franklin"^^xsd:string .
+
+<http://example.org/station/4437> a ns2:PhysicalSharingStation ;
+    ns3:address "4500 Franklin Ave, Los Feliz, CA"^^xsd:string ;
+    ns1:lat 34.10536 ;
+    ns1:long -118.28727 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 13 ;
+    <http://xmlns.com/foaf/0.1/name/> "Franklin & Hillhurst"^^xsd:string .
+
+<http://example.org/station/4438> a ns2:PhysicalSharingStation ;
+    ns3:address "1254 N Hoover St, Silver Lake, CA"^^xsd:string ;
+    ns1:lat 34.09493 ;
+    ns1:long -118.28456 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "Hoover & Fountain"^^xsd:string .
+
+<http://example.org/station/4439> a ns2:PhysicalSharingStation ;
+    ns3:address "4477 Santa Monica Blvd, Los Feliz, CA"^^xsd:string ;
+    ns1:lat 34.09097 ;
+    ns1:long -118.28625 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "Santa Monica & Virgil"^^xsd:string .
+
+<http://example.org/station/4440> a ns2:PhysicalSharingStation ;
+    ns3:address "3420 Wilshire Blvd, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.06166 ;
+    ns1:long -118.29824 ;
+    ns2:AvailableVehicles 10 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 18 ;
+    <http://xmlns.com/foaf/0.1/name/> "Wilshire & Alexandria"^^xsd:string .
+
+<http://example.org/station/4441> a ns2:PhysicalSharingStation ;
+    ns3:address "University Ave, USC, CA"^^xsd:string ;
+    ns1:lat 34.02662 ;
+    ns1:long -118.28181 ;
+    ns2:AvailableVehicles 1 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 9 ;
+    <http://xmlns.com/foaf/0.1/name/> "University & 30th"^^xsd:string .
+
+<http://example.org/station/4442> a ns2:PhysicalSharingStation ;
+    ns3:address "1498 N Normandie, Los Feliz, CA"^^xsd:string ;
+    ns1:lat 34.098 ;
+    ns1:long -118.30047 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "Normandie & Sunset"^^xsd:string .
+
+<http://example.org/station/4443> a ns2:PhysicalSharingStation ;
+    ns3:address "3330 S Figueroa St, USC, CA"^^xsd:string ;
+    ns1:lat 34.02209 ;
+    ns1:long -118.27979 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 8 ;
+    <http://xmlns.com/foaf/0.1/name/> "Figueroa & Jefferson"^^xsd:string .
+
+<http://example.org/station/4444> a ns2:PhysicalSharingStation ;
+    ns3:address "3670 Wilshire Blvd, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.06162 ;
+    ns1:long -118.30557 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 9 ;
+    <http://xmlns.com/foaf/0.1/name/> "Wilshire & Hobart"^^xsd:string .
+
+<http://example.org/station/4445> a ns2:PhysicalSharingStation ;
+    ns3:address "1389 S Sunset Blvd, Echo Park, CA"^^xsd:string ;
+    ns1:lat 34.07364 ;
+    ns1:long -118.25157 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Sunset & Douglas"^^xsd:string .
+
+<http://example.org/station/4446> a ns2:PhysicalSharingStation ;
+    ns3:address "2059 James M. Wood Blvd, Westlake, CA"^^xsd:string ;
+    ns1:lat 34.05323 ;
+    ns1:long -118.27842 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 13 ;
+    <http://xmlns.com/foaf/0.1/name/> "James M. Wood & Alvarado"^^xsd:string .
+
+<http://example.org/station/4447> a ns2:PhysicalSharingStation ;
+    ns3:address "623 S Rampart Blvd, Westlake, CA"^^xsd:string ;
+    ns1:lat 34.0616 ;
+    ns1:long -118.28199 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Rampart & Wilshire"^^xsd:string .
+
+<http://example.org/station/4448> a ns2:PhysicalSharingStation ;
+    ns3:address "509 W 23rd St, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.03027 ;
+    ns1:long -118.27319 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 22 ;
+    <http://xmlns.com/foaf/0.1/name/> "23rd St & Flower"^^xsd:string .
+
+<http://example.org/station/4449> a ns2:PhysicalSharingStation ;
+    ns3:address "1153 Valencia St, Westlake, CA"^^xsd:string ;
+    ns1:lat 34.04557 ;
+    ns1:long -118.27419 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 13 ;
+    <http://xmlns.com/foaf/0.1/name/> "12th & Valencia"^^xsd:string .
+
+<http://example.org/station/4450> a ns2:PhysicalSharingStation ;
+    ns3:address "3000 W 6th St, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.06349 ;
+    ns1:long -118.28716 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Virgil & 6th"^^xsd:string .
+
+<http://example.org/station/4451> a ns2:PhysicalSharingStation ;
+    ns3:address "4647 Melbourne Ave, Los Feliz, CA"^^xsd:string ;
+    ns1:lat 34.10363 ;
+    ns1:long -118.29131 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "Melbourne & Vermont"^^xsd:string .
+
+<http://example.org/station/4452> a ns2:PhysicalSharingStation ;
+    ns3:address "1717 Hillhurst Ave, Los Feliz, CA"^^xsd:string ;
+    ns1:lat 34.10233 ;
+    ns1:long -118.28746 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "Hillhurst & Kingswell"^^xsd:string .
+
+<http://example.org/station/4453> a ns2:PhysicalSharingStation ;
+    ns3:address "701 Lucile Ave, Silver Lake, CA"^^xsd:string ;
+    ns1:lat 34.08265 ;
+    ns1:long -118.28439 ;
+    ns2:AvailableVehicles 2 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 6 ;
+    <http://xmlns.com/foaf/0.1/name/> "Lucile & Hoover"^^xsd:string .
+
+<http://example.org/station/4454> a ns2:PhysicalSharingStation ;
+    ns3:address "3775 S Vermont Ave, USC, CA"^^xsd:string ;
+    ns1:lat 34.0179 ;
+    ns1:long -118.29172 ;
+    ns2:AvailableVehicles 13 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "Vermont & Exposition"^^xsd:string .
+
+<http://example.org/station/4455> a ns2:PhysicalSharingStation ;
+    ns3:address "2841 1/2 Hyperion Ave, Silver Lake, CA"^^xsd:string ;
+    ns1:lat 34.10936 ;
+    ns1:long -118.27181 ;
+    ns2:AvailableVehicles 13 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 18 ;
+    <http://xmlns.com/foaf/0.1/name/> "Rowena & Hyperion"^^xsd:string .
+
+<http://example.org/station/4456> a ns2:PhysicalSharingStation ;
+    ns3:address "W Olympic Blvd & S Ardmore Ave, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.05243 ;
+    ns1:long -118.30202 ;
+    ns2:AvailableVehicles 11 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "Ardmore & Olympic"^^xsd:string .
+
+<http://example.org/station/4457> a ns2:PhysicalSharingStation ;
+    ns3:address "Hollywood Blvd & Rodney Dr, Los Feliz, CA"^^xsd:string ;
+    ns1:lat 34.10011 ;
+    ns1:long -118.28986 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 8 ;
+    <http://xmlns.com/foaf/0.1/name/> "Hollywood & Rodney"^^xsd:string .
+
+<http://example.org/station/4472> a ns2:PhysicalSharingStation ;
+    ns3:address "Sunset Blvd & Sanborn Ave, Silver Lake, CA"^^xsd:string ;
+    ns1:lat 34.0926 ;
+    ns1:long -118.28093 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 17 ;
+    <http://xmlns.com/foaf/0.1/name/> "Santa Monica & Sunset"^^xsd:string .
+
+<http://example.org/station/4473> a ns2:PhysicalSharingStation ;
+    ns3:address "3040 Beverly Blvd, Westlake, CA"^^xsd:string ;
+    ns1:lat 34.07159 ;
+    ns1:long -118.28229 ;
+    ns2:AvailableVehicles 2 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 8 ;
+    <http://xmlns.com/foaf/0.1/name/> "Vendome & Beverly"^^xsd:string .
+
+<http://example.org/station/4474> a ns2:PhysicalSharingStation ;
+    ns3:address "Ambrose Ave & Hillhurst Ave, Los Feliz, CA"^^xsd:string ;
+    ns1:lat 34.11003 ;
+    ns1:long -118.28716 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "Ambrose & Hillhurst"^^xsd:string .
+
+<http://example.org/station/4475> a ns2:PhysicalSharingStation ;
+    ns3:address "415 San Pedro St, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04518 ;
+    ns1:long -118.24325 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "San Pedro & Winston"^^xsd:string .
+
+<http://example.org/station/4476> a ns2:PhysicalSharingStation ;
+    ns3:address "2847 Sunset Blvd, Silver Lake, CA"^^xsd:string ;
+    ns1:lat 34.08252 ;
+    ns1:long -118.27272 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Sunset & Silver Lake"^^xsd:string .
+
+<http://example.org/station/4477> a ns2:PhysicalSharingStation ;
+    ns3:address "6247 Yucca St, Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.10385 ;
+    ns1:long -118.32546 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 23 ;
+    <http://xmlns.com/foaf/0.1/name/> "Yucca & Argyle"^^xsd:string .
+
+<http://example.org/station/4478> a ns2:PhysicalSharingStation ;
+    ns3:address "3706 Tracy St, Los Feliz, CA"^^xsd:string ;
+    ns1:lat 34.10424 ;
+    ns1:long -118.2737 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 13 ;
+    <http://xmlns.com/foaf/0.1/name/> "Tracy & Hyperion"^^xsd:string .
+
+<http://example.org/station/4479> a ns2:PhysicalSharingStation ;
+    ns3:address "2617-2717 Ellendale Pl, USC, CA"^^xsd:string ;
+    ns1:lat 34.0315 ;
+    ns1:long -118.28874 ;
+    ns2:AvailableVehicles 1 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "Ellendale Pl & Adams"^^xsd:string .
+
+<http://example.org/station/4480> a ns2:PhysicalSharingStation ;
+    ns3:address "201 N Figueroa, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.05896 ;
+    ns1:long -118.25059 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Figueroa Plaza"^^xsd:string .
+
+<http://example.org/station/4482> a ns2:PhysicalSharingStation ;
+    ns3:address "1300-1310 Wilcox Ave, Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.09437 ;
+    ns1:long -118.33101 ;
+    ns2:AvailableVehicles 12 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Wilcox & Fountain"^^xsd:string .
+
+<http://example.org/station/4483> a ns2:PhysicalSharingStation ;
+    ns3:address "2420 Glendale Blv, Silver Lake, CA"^^xsd:string ;
+    ns1:lat 34.1007 ;
+    ns1:long -118.25912 ;
+    ns2:AvailableVehicles 2 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "Glendale & Silver Lake"^^xsd:string .
+
+<http://example.org/station/4486> a ns2:PhysicalSharingStation ;
+    ns3:address "1329 W 1st St, Westlake, CA"^^xsd:string ;
+    ns1:lat 34.06126 ;
+    ns1:long -118.2586 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "Vista Hermosa Park"^^xsd:string .
+
+<http://example.org/station/4487> a ns2:PhysicalSharingStation ;
+    ns3:address "1017 Broxton Ave, Westwood, CA"^^xsd:string ;
+    ns1:lat 34.06211 ;
+    ns1:long -118.44692 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "Broxton & Weyburn"^^xsd:string .
+
+<http://example.org/station/4490> a ns2:PhysicalSharingStation ;
+    ns3:address "S Figueroa St & W 4th St, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.05355 ;
+    ns1:long -118.25584 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Figueroa & 4th"^^xsd:string .
+
+<http://example.org/station/4491> a ns2:PhysicalSharingStation ;
+    ns3:address "429 S Main St, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04744 ;
+    ns1:long -118.24794 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 13 ;
+    <http://xmlns.com/foaf/0.1/name/> "Main & Winston"^^xsd:string .
+
+<http://example.org/station/4492> a ns2:PhysicalSharingStation ;
+    ns3:address "Westwood Blvd & Exposition Blvd, West Los Angeles, CA"^^xsd:string ;
+    ns1:lat 34.03687 ;
+    ns1:long -118.4255 ;
+    ns2:AvailableVehicles 14 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 19 ;
+    <http://xmlns.com/foaf/0.1/name/> "Westwood/Rancho Park E Line Station"^^xsd:string .
+
+<http://example.org/station/4493> a ns2:PhysicalSharingStation ;
+    ns3:address "Sunset Blvd & Maltman Ave, Silver Lake, CA"^^xsd:string ;
+    ns1:lat 34.09028 ;
+    ns1:long -118.27719 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "Sunset Triangle Plaza"^^xsd:string .
+
+<http://example.org/station/4494> a ns2:PhysicalSharingStation ;
+    ns3:address "1524 Sunset Blvd, Echo Park, CA"^^xsd:string ;
+    ns1:lat 34.07598 ;
+    ns1:long -118.25601 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 9 ;
+    <http://xmlns.com/foaf/0.1/name/> "Laveta Terrace & Sunset"^^xsd:string .
+
+<http://example.org/station/4509> a ns2:PhysicalSharingStation ;
+    ns3:address "1661 Western Ave , Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.10164 ;
+    ns1:long -118.30917 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Western & Hollywood"^^xsd:string .
+
+<http://example.org/station/4510> a ns2:PhysicalSharingStation ;
+    ns3:address "2134 Sunset Blvd, Silver Lake, CA"^^xsd:string ;
+    ns1:lat 34.07735 ;
+    ns1:long -118.26455 ;
+    ns2:AvailableVehicles 2 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "Mohawk Bend"^^xsd:string .
+
+<http://example.org/station/4511> a ns2:PhysicalSharingStation ;
+    ns3:address "N Vignes St, Chinatown, CA"^^xsd:string ;
+    ns1:lat 34.05628 ;
+    ns1:long -118.23177 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 19 ;
+    <http://xmlns.com/foaf/0.1/name/> "Union Station East Portal"^^xsd:string .
+
+<http://example.org/station/4512> a ns2:PhysicalSharingStation ;
+    ns3:address "1060 S Figueroa St , DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04381 ;
+    ns1:long -118.26497 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "Figueroa & 11th"^^xsd:string .
+
+<http://example.org/station/4513> a ns2:PhysicalSharingStation ;
+    ns3:address "707 N Edgemont St, Los Feliz, CA"^^xsd:string ;
+    ns1:lat 34.08371 ;
+    ns1:long -118.29602 ;
+    ns2:AvailableVehicles 15 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 18 ;
+    <http://xmlns.com/foaf/0.1/name/> "Edgemont & Melrose"^^xsd:string .
+
+<http://example.org/station/4514> a ns2:PhysicalSharingStation ;
+    ns3:address "1600 Purdue Ave, West Los Angeles, CA"^^xsd:string ;
+    ns1:lat 34.04655 ;
+    ns1:long -118.45144 ;
+    ns2:AvailableVehicles 14 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 18 ;
+    <http://xmlns.com/foaf/0.1/name/> "Purdue & Santa Monica"^^xsd:string .
+
+<http://example.org/station/4515> a ns2:PhysicalSharingStation ;
+    ns3:address "11298 Mississippi Ave, West Los Angeles, CA"^^xsd:string ;
+    ns1:lat 34.03974 ;
+    ns1:long -118.44227 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 9 ;
+    <http://xmlns.com/foaf/0.1/name/> "Mississippi & Sawtelle"^^xsd:string .
+
+<http://example.org/station/4516> a ns2:PhysicalSharingStation ;
+    ns3:address "700 S Hill St, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04585 ;
+    ns1:long -118.2544 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 19 ;
+    <http://xmlns.com/foaf/0.1/name/> "7th & Hill"^^xsd:string .
+
+<http://example.org/station/4517> a ns2:PhysicalSharingStation ;
+    ns3:address "1721-1701 N Highland Ave, Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.10196 ;
+    ns1:long -118.33885 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Highland & Hollywood"^^xsd:string .
+
+<http://example.org/station/4518> a ns2:PhysicalSharingStation ;
+    ns3:address "720 S Normandie Ave, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.05797 ;
+    ns1:long -118.29975 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 6 ;
+    <http://xmlns.com/foaf/0.1/name/> "Normandie & 8th"^^xsd:string .
+
+<http://example.org/station/4521> a ns2:PhysicalSharingStation ;
+    ns3:address "4955 Inglewood Blvd, Del Rey, CA"^^xsd:string ;
+    ns1:lat 33.99032 ;
+    ns1:long -118.41205 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "Inglewood & Ballona"^^xsd:string .
+
+<http://example.org/station/4523> a ns2:PhysicalSharingStation ;
+    ns3:address "311 S Western Ave, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.06875 ;
+    ns1:long -118.30928 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Western & 3rd"^^xsd:string .
+
+<http://example.org/station/4524> a ns2:PhysicalSharingStation ;
+    ns3:address "Wilshire Normandie Plaza, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.06163 ;
+    ns1:long -118.30119 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "Wilshire & Normandie"^^xsd:string .
+
+<http://example.org/station/4525> a ns2:PhysicalSharingStation ;
+    ns3:address "7000 Hawthorn Ave, Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.10038 ;
+    ns1:long -118.3418 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Hawthorn & Orange"^^xsd:string .
+
+<http://example.org/station/4526> a ns2:PhysicalSharingStation ;
+    ns3:address "7333 Franklin Ave, Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.10338 ;
+    ns1:long -118.34919 ;
+    ns2:AvailableVehicles 12 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 23 ;
+    <http://xmlns.com/foaf/0.1/name/> "Franklin & Fuller"^^xsd:string .
+
+<http://example.org/station/4527> a ns2:PhysicalSharingStation ;
+    ns3:address "1714 N McCadden Pl, Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.102 ;
+    ns1:long -118.33741 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "McCadden & Hollywood"^^xsd:string .
+
+<http://example.org/station/4528> a ns2:PhysicalSharingStation ;
+    ns3:address "1080 Glendon Ave, Westwood, CA"^^xsd:string ;
+    ns1:lat 34.06097 ;
+    ns1:long -118.44437 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "Glendon & Kinross"^^xsd:string .
+
+<http://example.org/station/4529> a ns2:PhysicalSharingStation ;
+    ns3:address "6561 Hollywood Blvd, Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.10186 ;
+    ns1:long -118.33329 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 13 ;
+    <http://xmlns.com/foaf/0.1/name/> "Whitley & Hollywood"^^xsd:string .
+
+<http://example.org/station/4534> a ns2:PhysicalSharingStation ;
+    ns3:address "6331 Hollywood Blvd, Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.10186 ;
+    ns1:long -118.32811 ;
+    ns2:AvailableVehicles 13 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "Ivar & Hollywood"^^xsd:string .
+
+<http://example.org/station/4536> a ns2:PhysicalSharingStation ;
+    ns3:address "600 Venice Boulevard, Venice, CA"^^xsd:string ;
+    ns1:lat 33.98908 ;
+    ns1:long -118.46226 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "Venice & Abbot Kinney"^^xsd:string .
+
+<http://example.org/station/4537> a ns2:PhysicalSharingStation ;
+    ns3:address "1500 N Highland Ave, Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.09823 ;
+    ns1:long -118.33882 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 23 ;
+    <http://xmlns.com/foaf/0.1/name/> "Highland & Sunset"^^xsd:string .
+
+<http://example.org/station/4538> a ns2:PhysicalSharingStation ;
+    ns3:address "450 S Western Ave , Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.06543 ;
+    ns1:long -118.30882 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 8 ;
+    <http://xmlns.com/foaf/0.1/name/> "5th & Western"^^xsd:string .
+
+<http://example.org/station/4539> a ns2:PhysicalSharingStation ;
+    ns3:address "1717 N Cherokee Ave, Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.10176 ;
+    ns1:long -118.33474 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "Cherokee & Hollywood"^^xsd:string .
+
+<http://example.org/station/4540> a ns2:PhysicalSharingStation ;
+    ns3:address "111 S Utah St, Boyle Heights, CA"^^xsd:string ;
+    ns1:lat 34.04776 ;
+    ns1:long -118.22541 ;
+    ns2:AvailableVehicles 12 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 18 ;
+    <http://xmlns.com/foaf/0.1/name/> "1st & Utah"^^xsd:string .
+
+<http://example.org/station/4543> a ns2:PhysicalSharingStation ;
+    ns3:address "6900 Pacific Ave, Playa del Rey, CA"^^xsd:string ;
+    ns1:lat 33.95718 ;
+    ns1:long -118.45125 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 8 ;
+    <http://xmlns.com/foaf/0.1/name/> "Toes Beach at Culver Blvd"^^xsd:string .
+
+<http://example.org/station/4544> a ns2:PhysicalSharingStation ;
+    ns3:address "Dockweiler Beach, Playa Del Rey, CA"^^xsd:string ;
+    ns1:lat 33.92846 ;
+    ns1:long -118.4352 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "Dockweiler Beach at Imperial Hwy"^^xsd:string .
+
+<http://example.org/station/4545> a ns2:PhysicalSharingStation ;
+    ns3:address "200 Culver Blvd, Playa Del Rey, CA"^^xsd:string ;
+    ns1:lat 33.95879 ;
+    ns1:long -118.44828 ;
+    ns2:AvailableVehicles 2 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 8 ;
+    <http://xmlns.com/foaf/0.1/name/> "Vista Del Mar & Culver"^^xsd:string .
+
+<http://example.org/station/4546> a ns2:PhysicalSharingStation ;
+    ns3:address "12201 Exposition Blvd, West Los Angeles, CA"^^xsd:string ;
+    ns1:lat 34.0314 ;
+    ns1:long -118.45363 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 19 ;
+    <http://xmlns.com/foaf/0.1/name/> "Expo/Bundy E Line Station"^^xsd:string .
+
+<http://example.org/station/4547> a ns2:PhysicalSharingStation ;
+    ns3:address "3205 Washington Blvd, Venice, CA"^^xsd:string ;
+    ns1:lat 33.9897 ;
+    ns1:long -118.44888 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "Stanford & Washington"^^xsd:string .
+
+<http://example.org/station/4548> a ns2:PhysicalSharingStation ;
+    ns3:address "8985 Venice Blvd, Palms, CA"^^xsd:string ;
+    ns1:lat 34.02683 ;
+    ns1:long -118.39352 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "Durango & Venice"^^xsd:string .
+
+<http://example.org/station/4549> a ns2:PhysicalSharingStation ;
+    ns3:address "3010 S Barrington Ave, Mar Vista, CA"^^xsd:string ;
+    ns1:lat 34.02245 ;
+    ns1:long -118.43833 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "Barrington & National"^^xsd:string .
+
+<http://example.org/station/4552> a ns2:PhysicalSharingStation ;
+    ns3:address "12415 Culver Blvd, Del Rey, CA"^^xsd:string ;
+    ns1:lat 33.99097 ;
+    ns1:long -118.4213 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "Culver & Centinela"^^xsd:string .
+
+<http://example.org/station/4553> a ns2:PhysicalSharingStation ;
+    ns3:address "12904 Venice Blvd, Mar Vista, CA"^^xsd:string ;
+    ns1:lat 33.99958 ;
+    ns1:long -118.44136 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 9 ;
+    <http://xmlns.com/foaf/0.1/name/> "Venice & Beethoven"^^xsd:string .
+
+<http://example.org/station/4554> a ns2:PhysicalSharingStation ;
+    ns3:address "12413 Venice, Mar Vista, CA"^^xsd:string ;
+    ns1:lat 34.00351 ;
+    ns1:long -118.43438 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Venice & Colonial"^^xsd:string .
+
+<http://example.org/station/4555> a ns2:PhysicalSharingStation ;
+    ns3:address "12006 Venice Blvd, Mar Vista, CA"^^xsd:string ;
+    ns1:lat 34.00587 ;
+    ns1:long -118.42916 ;
+    ns2:AvailableVehicles 0 ;
+    ns2:isStationActive false ;
+    ns2:numberOfDocks 9 ;
+    <http://xmlns.com/foaf/0.1/name/> "Venice & Inglewood"^^xsd:string .
+
+<http://example.org/station/4556> a ns2:PhysicalSharingStation ;
+    ns3:address "3781 McLaughlin, Mar Vista, CA"^^xsd:string ;
+    ns1:lat 34.00902 ;
+    ns1:long -118.42501 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 13 ;
+    <http://xmlns.com/foaf/0.1/name/> "McLaughlin & Venice"^^xsd:string .
+
+<http://example.org/station/4557> a ns2:PhysicalSharingStation ;
+    ns3:address "11289 Venice Blvd, Mar Vista, CA"^^xsd:string ;
+    ns1:lat 34.0118 ;
+    ns1:long -118.41944 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Venice & Sawtelle"^^xsd:string .
+
+<http://example.org/station/4558> a ns2:PhysicalSharingStation ;
+    ns3:address "3775 Bagley Ave, Palms, CA"^^xsd:string ;
+    ns1:lat 34.02569 ;
+    ns1:long -118.3953 ;
+    ns2:AvailableVehicles 10 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 17 ;
+    <http://xmlns.com/foaf/0.1/name/> "Bagley & Venice"^^xsd:string .
+
+<http://example.org/station/4559> a ns2:PhysicalSharingStation ;
+    ns3:address "10875 Palms Blvd, Palms, CA"^^xsd:string ;
+    ns1:lat 34.02199 ;
+    ns1:long -118.4165 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 9 ;
+    <http://xmlns.com/foaf/0.1/name/> "Palms & Kelton"^^xsd:string .
+
+<http://example.org/station/4560> a ns2:PhysicalSharingStation ;
+    ns3:address "3585 S Sepulveda Blvd, Palms, CA"^^xsd:string ;
+    ns1:lat 34.01737 ;
+    ns1:long -118.4206 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 8 ;
+    <http://xmlns.com/foaf/0.1/name/> "Sepulveda & Charnock"^^xsd:string .
+
+<http://example.org/station/4561> a ns2:PhysicalSharingStation ;
+    ns3:address "3466 S Sepulveda Blvd, Palms, CA"^^xsd:string ;
+    ns1:lat 34.02006 ;
+    ns1:long -118.42268 ;
+    ns2:AvailableVehicles 2 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 9 ;
+    <http://xmlns.com/foaf/0.1/name/> "Sepulveda & Palms"^^xsd:string .
+
+<http://example.org/station/4562> a ns2:PhysicalSharingStation ;
+    ns3:address "Sepulveda & National, Palms, CA"^^xsd:string ;
+    ns1:lat 34.02697 ;
+    ns1:long -118.42821 ;
+    ns2:AvailableVehicles 12 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 16 ;
+    <http://xmlns.com/foaf/0.1/name/> "Sepulveda & National"^^xsd:string .
+
+<http://example.org/station/4563> a ns2:PhysicalSharingStation ;
+    ns3:address "10823 Venice Blvd, Palms, CA"^^xsd:string ;
+    ns1:lat 34.01745 ;
+    ns1:long -118.40957 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "Venice & Glendon"^^xsd:string .
+
+<http://example.org/station/4564> a ns2:PhysicalSharingStation ;
+    ns3:address "11295 Exposition Blvd, West Los Angeles, CA"^^xsd:string ;
+    ns1:lat 34.03535 ;
+    ns1:long -118.43414 ;
+    ns2:AvailableVehicles 1 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Expo/Sepulveda E Line Station"^^xsd:string .
+
+<http://example.org/station/4565> a ns2:PhysicalSharingStation ;
+    ns3:address "4314-4300 Alla Rd, Del Rey, CA"^^xsd:string ;
+    ns1:lat 33.98995 ;
+    ns1:long -118.43467 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "Alla & Maxella"^^xsd:string .
+
+<http://example.org/station/4566> a ns2:PhysicalSharingStation ;
+    ns3:address "9907 Venice Blvd, Palms, CA"^^xsd:string ;
+    ns1:lat 34.02339 ;
+    ns1:long -118.39922 ;
+    ns2:AvailableVehicles 11 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Venice & Hughes"^^xsd:string .
+
+<http://example.org/station/4567> a ns2:PhysicalSharingStation ;
+    ns3:address "10404 Venice Blvd, Palms, CA"^^xsd:string ;
+    ns1:lat 34.02018 ;
+    ns1:long -118.40403 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Venice & Motor"^^xsd:string .
+
+<http://example.org/station/4568> a ns2:PhysicalSharingStation ;
+    ns3:address "10001 Exposition Blvd, Palms, CA"^^xsd:string ;
+    ns1:lat 34.02912 ;
+    ns1:long -118.40317 ;
+    ns2:AvailableVehicles 10 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "Palms E Line Station"^^xsd:string .
+
+<http://example.org/station/4569> a ns2:PhysicalSharingStation ;
+    ns3:address "10323 Palms Blvd, Palms, CA"^^xsd:string ;
+    ns1:lat 34.02655 ;
+    ns1:long -118.40846 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 9 ;
+    <http://xmlns.com/foaf/0.1/name/> "Palms & Motor"^^xsd:string .
+
+<http://example.org/station/4570> a ns2:PhysicalSharingStation ;
+    ns3:address "3732 S Sepulveda Blvd, Palms, CA"^^xsd:string ;
+    ns1:lat 34.01376 ;
+    ns1:long -118.4178 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 17 ;
+    <http://xmlns.com/foaf/0.1/name/> "Sepulveda & Venice"^^xsd:string .
+
+<http://example.org/station/4571> a ns2:PhysicalSharingStation ;
+    ns3:address "10618 Rose Ave, Palms, CA"^^xsd:string ;
+    ns1:lat 34.02765 ;
+    ns1:long -118.41356 ;
+    ns2:AvailableVehicles 2 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 7 ;
+    <http://xmlns.com/foaf/0.1/name/> "Rose & Overland"^^xsd:string .
+
+<http://example.org/station/4572> a ns2:PhysicalSharingStation ;
+    ns3:address "10377 National Blvd, Palms, CA"^^xsd:string ;
+    ns1:lat 34.02948 ;
+    ns1:long -118.41047 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "National & Motor"^^xsd:string .
+
+<http://example.org/station/4573> a ns2:PhysicalSharingStation ;
+    ns3:address "3301 Westwood Blvd, Palms, CA"^^xsd:string ;
+    ns1:lat 34.03047 ;
+    ns1:long -118.42098 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Westwood & National"^^xsd:string .
+
+<http://example.org/station/4575> a ns2:PhysicalSharingStation ;
+    ns3:address "11220-11200 Lucerne Ave, Del Rey, CA"^^xsd:string ;
+    ns1:lat 34.00031 ;
+    ns1:long -118.40253 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Lucerne & Sepulveda"^^xsd:string .
+
+<http://example.org/station/4576> a ns2:PhysicalSharingStation ;
+    ns3:address "3704-3700 Motor Ave, Palms, CA"^^xsd:string ;
+    ns1:lat 34.02258 ;
+    ns1:long -118.40551 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Motor & Regent"^^xsd:string .
+
+<http://example.org/station/4577> a ns2:PhysicalSharingStation ;
+    ns3:address "4743 Inglewood Blvd, Del Rey, CA"^^xsd:string ;
+    ns1:lat 33.99302 ;
+    ns1:long -118.41491 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Inglewood & Braddock"^^xsd:string .
+
+<http://example.org/station/4578> a ns2:PhysicalSharingStation ;
+    ns3:address "755 S Main, DTLA, CA"^^xsd:string ;
+    ns1:lat 34.04298 ;
+    ns1:long -118.25295 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 8 ;
+    <http://xmlns.com/foaf/0.1/name/> "Main & 8th"^^xsd:string .
+
+<http://example.org/station/4579> a ns2:PhysicalSharingStation ;
+    ns3:address "4666-4650 Alla Rd, Del Rey, CA"^^xsd:string ;
+    ns1:lat 33.98486 ;
+    ns1:long -118.43113 ;
+    ns2:AvailableVehicles 11 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "Alla & Glencoe"^^xsd:string .
+
+<http://example.org/station/4580> a ns2:PhysicalSharingStation ;
+    ns3:address "Centinela & Lucile, Playa Vista, CA"^^xsd:string ;
+    ns1:lat 33.98292 ;
+    ns1:long -118.41093 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 8 ;
+    <http://xmlns.com/foaf/0.1/name/> "Centinela & Lucile"^^xsd:string .
+
+<http://example.org/station/4581> a ns2:PhysicalSharingStation ;
+    ns3:address "Playa Vista Drive, Playa Vista, CA"^^xsd:string ;
+    ns1:lat 33.97024 ;
+    ns1:long -118.42607 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 17 ;
+    <http://xmlns.com/foaf/0.1/name/> "Playa Vista Library"^^xsd:string .
+
+<http://example.org/station/4582> a ns2:PhysicalSharingStation ;
+    ns3:address "5504 Westlawn Ave, Playa Vista, CA"^^xsd:string ;
+    ns1:lat 33.98099 ;
+    ns1:long -118.41488 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "Westlawn & Beatrice"^^xsd:string .
+
+<http://example.org/station/4583> a ns2:PhysicalSharingStation ;
+    ns3:address "12855 Runway, Playa Vista, CA"^^xsd:string ;
+    ns1:lat 33.97619 ;
+    ns1:long -118.41842 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 22 ;
+    <http://xmlns.com/foaf/0.1/name/> "McConnell & Runway"^^xsd:string .
+
+<http://example.org/station/4584> a ns2:PhysicalSharingStation ;
+    ns3:address "6265 Fountain Ave, Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.09435 ;
+    ns1:long -118.32636 ;
+    ns2:AvailableVehicles 11 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 14 ;
+    <http://xmlns.com/foaf/0.1/name/> "Fountain & Vine"^^xsd:string .
+
+<http://example.org/station/4587> a ns2:PhysicalSharingStation ;
+    ns3:address "650 S Western Ave, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.06079 ;
+    ns1:long -118.30907 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 13 ;
+    <http://xmlns.com/foaf/0.1/name/> "Wiltern"^^xsd:string .
+
+<http://example.org/station/4595> a ns2:PhysicalSharingStation ;
+    ns3:address "11688 Chandler Blvd, North Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.16835 ;
+    ns1:long -118.3875 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 18 ;
+    <http://xmlns.com/foaf/0.1/name/> "Chandler & Colfax"^^xsd:string .
+
+<http://example.org/station/4596> a ns2:PhysicalSharingStation ;
+    ns3:address "5352 Laurel Canyon Blvd, North Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.16833 ;
+    ns1:long -118.39616 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Chandler & Laurel Canyon"^^xsd:string .
+
+<http://example.org/station/4597> a ns2:PhysicalSharingStation ;
+    ns3:address "10301 W Magnolia Blvd, North Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.16522 ;
+    ns1:long -118.35515 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Magnolia & Clybourn"^^xsd:string .
+
+<http://example.org/station/4598> a ns2:PhysicalSharingStation ;
+    ns3:address "5223 Lankershim Blvd, North Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.16552 ;
+    ns1:long -118.37515 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 9 ;
+    <http://xmlns.com/foaf/0.1/name/> "North Hollywood Plaza"^^xsd:string .
+
+<http://example.org/station/4599> a ns2:PhysicalSharingStation ;
+    ns3:address "10605 Chandler Blvd, North Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.16875 ;
+    ns1:long -118.36187 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "Chandler & Cahuenga"^^xsd:string .
+
+<http://example.org/station/4600> a ns2:PhysicalSharingStation ;
+    ns3:address "5906 Lankershim Blvd, North Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.17765 ;
+    ns1:long -118.38231 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 10 ;
+    <http://xmlns.com/foaf/0.1/name/> "Lankershim & Califa"^^xsd:string .
+
+<http://example.org/station/4601> a ns2:PhysicalSharingStation ;
+    ns3:address "5032 Lankershim Blvd, North Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.16171 ;
+    ns1:long -118.37282 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Lankershim & Hesby"^^xsd:string .
+
+<http://example.org/station/4602> a ns2:PhysicalSharingStation ;
+    ns3:address "10650 W Magnolia Blvd, North Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.16495 ;
+    ns1:long -118.36363 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "Magnolia & Cartwright"^^xsd:string .
+
+<http://example.org/station/4603> a ns2:PhysicalSharingStation ;
+    ns3:address "10600 Riverside Dr, North Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.15214 ;
+    ns1:long -118.36195 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 18 ;
+    <http://xmlns.com/foaf/0.1/name/> "Riverside & Cahuenga"^^xsd:string .
+
+<http://example.org/station/4604> a ns2:PhysicalSharingStation ;
+    ns3:address "4825 Lanklershim Blvd, North Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.15832 ;
+    ns1:long -118.37081 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "Lankershim & Vineland"^^xsd:string .
+
+<http://example.org/station/4605> a ns2:PhysicalSharingStation ;
+    ns3:address "4499 Mariota Ave, North Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.152 ;
+    ns1:long -118.3506 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 13 ;
+    <http://xmlns.com/foaf/0.1/name/> "Mariota & Riverside"^^xsd:string .
+
+<http://example.org/station/4606> a ns2:PhysicalSharingStation ;
+    ns3:address "5377 Lankershim, North Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.16863 ;
+    ns1:long -118.37707 ;
+    ns2:AvailableVehicles 7 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 20 ;
+    <http://xmlns.com/foaf/0.1/name/> "North Hollywood Station"^^xsd:string .
+
+<http://example.org/station/4613> a ns2:PhysicalSharingStation ;
+    ns3:address "425 Westwood Plaza, Los Angeles, CA 90095, Westwood, CA"^^xsd:string ;
+    ns1:lat 34.06975 ;
+    ns1:long -118.44535 ;
+    ns2:AvailableVehicles 6 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "Gateway Plaza"^^xsd:string .
+
+<http://example.org/station/4614> a ns2:PhysicalSharingStation ;
+    ns3:address "1317 Portola Plaza, Westwood, CA"^^xsd:string ;
+    ns1:lat 34.07365 ;
+    ns1:long -118.43984 ;
+    ns2:AvailableVehicles 5 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 18 ;
+    <http://xmlns.com/foaf/0.1/name/> "Perloff Hall"^^xsd:string .
+
+<http://example.org/station/4627> a ns2:PhysicalSharingStation ;
+    ns3:address "6203 Hollywood Blvd, Hollywood, CA"^^xsd:string ;
+    ns1:lat 34.10185 ;
+    ns1:long -118.32514 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 17 ;
+    <http://xmlns.com/foaf/0.1/name/> "Argyle & Hollywood "^^xsd:string .
+
+<http://example.org/station/4628> a ns2:PhysicalSharingStation ;
+    ns3:address "2966 7th St, Koreatown, CA"^^xsd:string ;
+    ns1:lat 34.05978 ;
+    ns1:long -118.28854 ;
+    ns2:AvailableVehicles 8 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "7th & Westmoreland"^^xsd:string .
+
+<http://example.org/station/4632> a ns2:PhysicalSharingStation ;
+    ns3:address "13438 Maxella Ave, Del Rey, CA"^^xsd:string ;
+    ns1:lat 33.98667 ;
+    ns1:long -118.44095 ;
+    ns2:AvailableVehicles 10 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 15 ;
+    <http://xmlns.com/foaf/0.1/name/> "Maxella & Glencoe"^^xsd:string .
+
+<http://example.org/station/4643> a ns2:PhysicalSharingStation ;
+    ns3:address "UCLA12, Drake Stadium, Los Angeles, CA"^^xsd:string ;
+    ns1:lat 34.07262 ;
+    ns1:long -118.44944 ;
+    ns2:AvailableVehicles 1 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 20 ;
+    <http://xmlns.com/foaf/0.1/name/> "Drake Stadium"^^xsd:string .
+
+<http://example.org/station/4644> a ns2:PhysicalSharingStation ;
+    ns3:address "UCLA17, Weyburn Terrace, Los Angeles, CA"^^xsd:string ;
+    ns1:lat 34.06186 ;
+    ns1:long -118.45002 ;
+    ns2:AvailableVehicles 4 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "Weyburn Terrace"^^xsd:string .
+
+<http://example.org/station/4645> a ns2:PhysicalSharingStation ;
+    ns3:address "3210 Sawtelle Blvd, Los Angeles, CA"^^xsd:string ;
+    ns1:lat 34.02341 ;
+    ns1:long -118.42901 ;
+    ns2:AvailableVehicles 9 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 12 ;
+    <http://xmlns.com/foaf/0.1/name/> "University Village (Sawtelle Blvd)"^^xsd:string .
+
+<http://example.org/station/4652> a ns2:PhysicalSharingStation ;
+    ns3:address "Arizona Ave & 16th, Santa Monica, CA"^^xsd:string ;
+    ns1:lat 34.02705 ;
+    ns1:long -118.48518 ;
+    ns2:AvailableVehicles 3 ;
+    ns2:isStationActive true ;
+    ns2:numberOfDocks 11 ;
+    <http://xmlns.com/foaf/0.1/name/> "Arizona Ave & 16th St"^^xsd:string .
+

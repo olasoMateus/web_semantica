@@ -9,8 +9,8 @@ class Server():
                       version = '1.1',
                       title = 'Urban IoT REST Api',
                       description = 'Api para consultas da ontologia Urban IoT',
-                      doc = '/docs'
-        )
+                      doc = '/'
+        ).namespace('UrbanIoT', description = 'Endpoints que utilizam a ontologia UrbanIoT')
 
     def run(self):
         self.app.run(
