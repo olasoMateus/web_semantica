@@ -16,7 +16,7 @@ class UrbanIot(Resource):
         description='Permite que você realize qualquer query SPARQL na database.')
     def get(self):
         sparql = SPARQLWrapper(
-        "http://localhost:3030/urbanIoT/sparql"
+        "http://18.231.162.156:3030/urbanIoT/query"
         )
         sparql.setReturnFormat(JSON)
 
@@ -42,7 +42,7 @@ class AllThings(Resource):
         description='Retorna todos os itens, dado o limite informado.')
     def get(self):
         sparql = SPARQLWrapper(
-        "http://localhost:3030/urbanIoT/sparql"
+        "http://18.231.162.156:3030/urbanIoT/query"
         )
         sparql.setReturnFormat(JSON)
 
@@ -71,7 +71,7 @@ class ActiveStations(Resource):
         description='Retorna a URI, o nome, o número de bicicletas, a latitude, a longitude e o endereço de todas as estações de compartilhamento de bicicleta ativas.')
     def get(self):
         sparql = SPARQLWrapper(
-        "http://localhost:3030/urbanIoT/sparql"
+        "http://18.231.162.156:3030/urbanIoT/query"
         )
         sparql.setReturnFormat(JSON)
 
@@ -114,7 +114,7 @@ class NumberOfBicycles(Resource):
         description='Retorna a URI, o nome, o número de bicicletas, a latitude, a longitude e o endereço das estações que tem o número de bicicletas informadas, ou mais.')
     def get(self):
         sparql = SPARQLWrapper(
-        "http://localhost:3030/urbanIoT/sparql"
+        "http://18.231.162.156:3030/urbanIoT/query"
         )
         sparql.setReturnFormat(JSON)
 
@@ -158,7 +158,7 @@ class NumberOfBicycles(Resource):
         description='Retorna a URI, o nome, o número de bicicletas, a latitude, a longitude e o endereço das estações que contém o endereço formado.')
     def get(self):
         sparql = SPARQLWrapper(
-        "http://localhost:3030/urbanIoT/sparql"
+        "http://18.231.162.156:3030/urbanIoT/query"
         )
         sparql.setReturnFormat(JSON)
 
