@@ -9,6 +9,6 @@ from src.controllers.tripController import *
 #     # A welcome message to test our server
 #     return "<h1>Welcome to our medium-greeting-api!</h1>"
 
-server.run()
+# server.run()
 
 app = server.app
