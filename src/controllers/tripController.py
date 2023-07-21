@@ -17,7 +17,7 @@ class tripByTime(Resource):
         description='Retorna a URI da viagem, seu endereço de começo, de fim, o tipo de veículo e a duração para viagem com minutos maior ou igual ao informado.')
     def get(self):
         sparql = SPARQLWrapper(
-        "http://18.231.162.156:3030/urbanIoT/query"
+        "http://18.230.197.243:3030/urbanIoT/query"
         )
         sparql.setReturnFormat(JSON)
 
@@ -64,7 +64,7 @@ class tripByTime(Resource):
         description='Retorna a URI da viagem, seu endereço de começo, de fim, o tipo de veículo e a duração para viagem com o tipo de veiculo informado')
     def get(self):
         sparql = SPARQLWrapper(
-        "http://18.231.162.156:3030/urbanIoT/query"
+        "http://18.230.197.243:3030/urbanIoT/query"
         )
         sparql.setReturnFormat(JSON)
 
